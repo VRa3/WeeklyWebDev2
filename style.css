@@ -109,13 +109,18 @@ body {
 }
 
 /* line 84, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+.textAbout {
+  padding-top: 70px;
+}
+
+/* line 87, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .text-home p, .textAbout p {
   font-family: 'Raleway';
   font-weight: 300;
   font-size: 0.9rem;
 }
 
-/* line 89, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 93, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .buttonHome {
   width: 180px;
   height: 40px;
@@ -127,14 +132,14 @@ body {
   transition: 0.5s;
 }
 
-/* line 99, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 103, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .buttonHome:hover {
   box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.21);
   transition: 0.5s;
   transform: scale(1.1);
 }
 
-/* line 104, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 108, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .headerBackground {
   background-image: url(images/header.jpg);
   background-size: cover;
@@ -144,7 +149,7 @@ body {
   position-/*END OF HOME SECTION*/
 }
 
-/* line 113, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 117, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .About {
   background-color: #15A5BF;
   padding: 0;
@@ -155,13 +160,13 @@ body {
   background-size: 50%;
 }
 
-/* line 122, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 126, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .textAbout {
   color: white;
   margin-top: 50px;
 }
 
-/* line 126, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 130, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .textAbout h1 {
   font-size: 3.6rem;
   font-family: 'Raleway';
@@ -170,24 +175,24 @@ body {
   text-align: center;
 }
 
-/* line 133, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 137, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .textAbout p {
   font-size: 0.7rem;
   text-align: center;
   text-align-/* END OF ABOUT SECTION */
 }
 
-/* line 137, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 141, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Services {
   background-color: rgba(38, 197, 203, 0.72);
 }
 
-/* line 140, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 144, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Services img {
   margin: 0 auto;
 }
 
-/* line 143, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 147, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Services h1 {
   font-size: 3.3rem;
   font-family: 'Raleway';
@@ -195,26 +200,26 @@ body {
   color: white;
 }
 
-/* line 149, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 153, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Tekscik {
   position: absolute;
   top: 40%;
   left: 25%;
 }
 
-/* line 154, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 158, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Uslugi {
   font-size: 0.8rem;
   font-family: 'Raleway';
   font-weight: 800;
 }
 
-/* line 160, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 164, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Uslugi:first-child {
   margin-top: 40px;
 }
 
-/* line 163, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 167, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Oferta {
   border-radius: 0px;
   height: 80px;
@@ -222,7 +227,7 @@ body {
   cursor: pointer;
 }
 
-/* line 169, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 173, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Oferta p {
   padding-left: 25px;
   position: absolute;
@@ -233,7 +238,7 @@ body {
   text-shadow: 1px 2px 1px rgba(150, 150, 150, 0.5);
 }
 
-/* line 178, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 182, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Wrapik {
   height: 80px;
   width: 80px;
@@ -243,7 +248,7 @@ body {
   right: 0px;
 }
 
-/* line 187, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 191, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .UslugiFoto {
   position: absolute;
   top: 50%;
@@ -252,13 +257,13 @@ body {
   padding: 0px 15px;
 }
 
-/* line 194, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 198, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .UslugiFoto img {
   width: 49px;
   height: 43px;
 }
 
-/* line 198, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 202, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Description-panel {
   display: none;
   color: white;
@@ -267,44 +272,44 @@ body {
   text-align-/* END OF SERVICES SECTION */
 }
 
-/* line 205, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 209, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Gallery {
   background-color: #fff72a;
   text-align: center;
 }
 
-/* line 210, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 214, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Gallery h1 {
   font-size: 4rem;
   font-weight: 700;
-  font-weight-padding-top: 20px;
+  padding-top: 40px;
 }
 
-/* line 215, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 219, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Description-gallery {
   margin-bottom: 50px;
 }
 
-/* line 218, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 222, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Gallery img {
   width: 100%;
   transition: all 0.8s;
 }
 
-/* line 222, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 226, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Gallery img:hover {
   transition: all 0.8s;
   transform: rotate(3deg);
   box-shadow: 0px 0px 40px 1px black;
 }
 
-/* line 227, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 231, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .img-wrapper {
   display: inline-block;
   padding-bottom: 5vh;
 }
 
-/* line 231, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 235, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .button-gallery {
   width: 80%;
   height: 40px;
@@ -315,7 +320,7 @@ body {
   transition: 0.5s;
 }
 
-/* line 240, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 244, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .button-gallery:hover {
   box-shadow: 0px 0px 25px 5px rgba(217, 197, 40, 0.88);
   transform: scale(1.1);
@@ -324,22 +329,22 @@ body {
 
 /* END OF GALLERY SECTION*/
 /* START OF SUBSCRIBE PANEL*/
-/* line 249, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 253, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Subscribe {
   background-color: #ffffff;
 }
 
-/* line 253, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 257, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .input-subscribe-wrapper h3 {
   margin-top: 135px;
 }
 
-/* line 256, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 260, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .img-subscribe-wrapper {
   margin-top: 60px;
 }
 
-/* line 260, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 264, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .input-subscribe {
   width: 100%;
   height: 40px;
@@ -347,7 +352,7 @@ body {
   margin: 15px 0;
 }
 
-/* line 266, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 270, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .button-subscribe {
   width: 100%;
   height: 40px;
@@ -358,7 +363,7 @@ body {
   margin: 15px 0;
 }
 
-/* line 276, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 280, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .button-subscribe:hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -366,21 +371,22 @@ body {
 
 /* END OF SUBSCRIBE PANEL*/
 /* START OF BLOG SECTIN*/
-/* line 285, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 289, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blogowisko {
   background-color: rgba(148, 97, 229, 0.79);
   min-height: 400px;
   width: 100%;
 }
 
-/* line 290, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 294, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blogowisko h1 {
+  margin-top: 50px;
   text-align: center;
   color: #fff;
   font-size: 4rem;
 }
 
-/* line 295, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 300, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-description-wrap {
   text-align: center;
   color: #fff;
@@ -388,12 +394,12 @@ body {
   padding-bottom: 20px;
 }
 
-/* line 303, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 306, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .blog-img-wrapper img {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* line 306, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 309, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .blog-img-wrapper {
   margin: 20px 0;
 }
@@ -411,18 +417,18 @@ body {
   transition: 0.5s;
 }
 
-/* line 322, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 321, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .foto-wrap img {
   transition: 0.5s;
 }
 
-/* line 325, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 324, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .foto-wrap {
   position: relative;
   overflow: hidden;
 }
 
-/* line 329, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 328, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-date {
   color: white;
   font-size: 1rem;
@@ -440,7 +446,7 @@ body {
   top: 20px;
 }
 
-/* line 346, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 344, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-img-desc {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.51);
@@ -453,7 +459,7 @@ body {
   padding: 0 5px;
 }
 
-/* line 357, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 355, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-author {
   position: absolute;
   color: white;
@@ -462,7 +468,7 @@ body {
   padding: 0 5px;
 }
 
-/* line 388, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 362, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-img-description {
   position: absolute;
   bottom: 0;
@@ -474,14 +480,15 @@ body {
   margin-right: 15px;
 }
 
-/* line 400, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 372, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-img-description p {
   padding: 0px 10px;
 }
 
-/* line 405, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 375, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-button-view {
   height: 40px;
+  width: 150px;
   margin: 50px 0px;
   background-color: rgba(245, 14, 14, 0.9);
   border: none;
@@ -489,66 +496,72 @@ body {
   color: white;
 }
 
-/* line 414, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 384, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-button-view:hover {
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
   transition: 0.5s;
 }
 
-/* line 419, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 389, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Blog-button-wrapper {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-/* line 426, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 396, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .img-salad {
   margin-bottom: 50px;
 }
 
 /* END OF BLOG SECTION */
 /* START OF CONTACT SECTION */
-/* line 436, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 406, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact {
   background-image: url(images/contact.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* line 442, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 412, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact h1 {
+  margin-top: 105px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
-/* line 446, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 418, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact p {
   text-align: center;
 }
 
-/* line 450, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 422, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-forms input {
   background-color: rgba(8, 203, 165, 0.42);
   border: none;
-  margin-bottom: 5px;
-  height: 40px;
+  margin-bottom: 10px;
+  height: 50px;
   width: 100%;
+  color: white;
+  padding-left: 10px;
+  font-size: 0.8rem;
 }
 
-/* line 457, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 433, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-forms input::placeholder {
   color: white;
+  font-size: 0.9rem;
 }
 
-/* line 460, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 437, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-forms input:focus {
   border-left: 4px solid rgba(1, 45, 191, 0.72);
   background-color: rgba(8, 203, 165, 0.85);
 }
 
-/* line 464, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 441, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-forms textarea {
   background-color: rgba(8, 203, 165, 0.42);
   border: none;
@@ -556,22 +569,24 @@ body {
   resize: none;
 }
 
-/* line 470, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 447, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-textarea textarea:focus {
   background-color: rgba(8, 203, 165, 0.85);
 }
 
-/* line 473, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 450, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-forms textarea::placeholder {
   color: white;
+  padding-left: 10px;
+  font-size: 0.8rem;
 }
 
-/* line 476, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 455, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-details {
   margin-bottom: 15px;
 }
 
-/* line 479, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 458, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-details p {
   font-size: 0.7rem;
   font-weight: 900;
@@ -581,41 +596,45 @@ body {
   padding: 0;
 }
 
-/* line 487, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 466, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 95px;
+  margin-top: 15px;
 }
 
-/* line 492, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 472, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-button-send {
-  height: 40px;
+  height: 60px;
   width: 200px;
   background-color: #69e2d1;
   border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-/* line 498, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 481, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-button-send:hover {
   background-color: rgba(8, 203, 165, 0.85);
 }
 
-/* line 501, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 484, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .Contact-button-send:focus {
   background-color: rgba(8, 203, 165, 0.85);
 }
 
 /* END OF CONTACT SECTION*/
 /* START OF FOOTER SECTION*/
-/* line 510, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 493, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 footer {
   background-color: #4a3636;
   color: #bcbcbc;
   font-size: 0.8rem;
 }
 
-/* line 515, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 498, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .footer-wrap {
   min-height: 100px;
   height: 100%;
@@ -625,14 +644,7 @@ footer {
   align-items: center;
 }
 
-/* line 523, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
-.footer-wrap span {
-  color: #e62972;
-  font-weight: 600;
-  font-size: 0.8rem;
-}
-
-/* line 528, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+/* line 507, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
 .logo-small {
   color: white;
   font-size: 1.6rem;
@@ -643,215 +655,219 @@ footer {
 /* START OF MEDIA QUERIES */
 /* START OF MEDIA QUERIES */
 @media screen and (min-width: 992px) and (max-width: 1170px) {
-  /* line 548, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 527, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .headerBackground {
     background-position: 55%;
     height: 600px;
   }
-  /* line 552, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 531, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .About {
     height: 600px;
     background-position: 10%;
     background-size: 50%;
   }
-  /* line 557, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 536, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .textAbout {
-    margin-top: 80px;
+    padding-top: 40px;
   }
-  /* line 560, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 539, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper {
     margin-top: -25px;
   }
-  /* line 563, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 542, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Subscribe {
     min-height: 375px;
   }
-  /* line 566, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 545, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .img-subscribe-wrapper {
     margin-top: 75px;
   }
-  /* line 570, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 549, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Blog-img-description {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 577, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 559, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .headerBackground {
     background-position: 55%;
     height: 650px;
   }
-  /* line 581, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 563, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .textAbout {
-    margin-top: 50px;
+    padding-top: 0;
   }
-  /* line 584, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 566, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .About {
     background-size: 60%;
     background-position: left center;
     background-position-/*GALLERY*/
   }
-  /* line 590, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 572, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .button-subscribe-wrapper {
     padding: 10px;
   }
-  /* line 593, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 575, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper {
     padding: 10px;
   }
-  /* line 596, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 578, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper h3 {
     margin-top: 50px;
   }
-  /* line 599, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 581, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .img-subscribe-wrapper {
     margin-top: 50px;
   }
-  /* line 602, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 584, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Subscribe {
     min-height: 265px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  /* line 610, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 592, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .burger {
     margin-top: 55px;
     transition: 0.5s;
   }
-  /* line 614, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 596, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .burger-scrolled {
     margin-top: 25px;
     transition: 0.5s;
   }
-  /* line 619, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 601, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .textAbout {
     margin-top: 0px;
   }
-  /* line 622, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 604, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .headerBackground {
     background-position: 55%;
     height: 500px;
   }
-  /* line 626, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 608, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .textAbout {
-    margin-top: 90%;
+    margin-top: 80%;
   }
-  /* line 629, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 611, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .About {
     height: auto;
     background-size: contain;
     background-position: top;
   }
-  /* line 634, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 616, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   ul li {
     text-align: center;
     background-color: white;
   }
-  /* line 638, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 620, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .ding {
     font-size: 0.9rem;
     margin: 0;
   }
-  /* line 642, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 624, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .ding:hover {
     font-size: 1.1rem;
     border-top: none;
     transition: 0.2s;
   }
-  /* line 648, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 630, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper h3 {
     margin-top: 50px;
   }
-  /* line 651, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 633, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Contact-details {
     color: white;
+  }
+  /* line 636, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  .Contact h1 {
+    font-size: 3rem;
   }
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
-  /* line 657, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 642, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .logo {
     font-size: 2.5rem;
     padding: 20px;
   }
-  /* line 661, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 646, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .logo-scrolled {
     font-size: 2rem;
     padding: 15px 20px;
   }
-  /* line 665, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 650, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .navbar-default {
     background-color: rgba(255, 255, 255, 0);
     transition: 0.5s;
     box-sizing: border-box;
     height: 110px;
   }
-  /* line 671, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 656, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .navbar-scrolled {
     min-height: 50px;
     background-color: white;
     transition: 0.5s;
     height: 92px;
   }
-  /* line 677, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 662, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .burger {
     margin-top: 40px;
     transition: 0.5s;
   }
-  /* line 681, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 666, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .burger-scrolled {
     margin-top: 25px;
     transition: 0.5s;
   }
-  /* line 685, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 670, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .text-home h1 {
     font-size: 1.6rem;
   }
-  /* line 688, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 673, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .headerBackground {
     background-position: 55%;
     height: 500px;
   }
-  /* line 692, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 677, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .About {
     height: auto;
     background-size: contain;
     background-position: top;
   }
-  /* line 697, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 682, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .text-home {
     margin-top: -65px;
   }
-  /* line 700, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 685, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .textAbout {
     margin-top: 90%;
   }
-  /* line 703, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 688, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   ul li {
     background-color: white;
     text-align: center;
   }
-  /* line 707, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 692, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .ding {
     font-size: 0.8rem;
     margin: 0;
   }
-  /* line 711, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 696, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .ding:hover {
     border: none;
   }
-  /* line 714, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 699, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Oferta p {
     font-size: 0.7rem;
   }
-  /* line 717, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 702, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .UslugiFoto img {
     width: 40px;
     height: 40px;
   }
-  /* line 721, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 706, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Wrapik {
     height: 80px;
     width: 70px;
@@ -860,7 +876,7 @@ footer {
     top: 0px;
     right: 0px;
   }
-  /* line 729, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 714, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Tekscik {
     width: 80%;
     text-align: center;
@@ -868,37 +884,42 @@ footer {
     top: 30%;
     left: 10%;
   }
-  /* line 736, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 721, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Pomidorek h1 {
     font-size: 2rem;
   }
   /* END OF XS SERVICES */
-  /* line 741, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 726, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Gallery h1 {
     font-size: 3rem;
   }
-  /* line 744, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 729, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Description-gallery {
     padding-bottom: -10px;
   }
-  /* line 747, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 732, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .img-wrapper {
     padding-bottom: 2vh;
   }
-  /* line 750, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 735, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .button-gallery {
     margin-bottom: 15px;
   }
-  /* line 753, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 738, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper h3 {
     margin-top: 15px;
   }
-  /* line 756, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 741, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .input-subscribe-wrapper {
     text-align: center;
   }
-  /* line 759, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  /* line 744, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .Contact-details {
+    color: white;
+  }
+  /* line 747, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
+  .Contact h1 {
+    font-size: 3rem;
     color: white;
   }
 }
