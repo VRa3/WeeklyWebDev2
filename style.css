@@ -180,7 +180,7 @@ body {
 .textAbout p {
   font-size: 0.7rem;
   text-align: center;
-  text-align-/* END OF ABOUT SECTION */
+  /* END OF ABOUT SECTION */
 }
 
 /* line 143, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
@@ -715,11 +715,24 @@ footer {
   .textAbout {
     padding-top: 0;
   }
+  
+  .logo{
+    font-size: 60px;
+    padding: 10px 20px;
+  }
+  
+  .logo-scrolled{
+    font-size: 40px;
+    padding: 18px;
+  }
+  
+  .Menu ul li a{
+    padding: 13px;
+  }
   /* line 578, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .About {
     background-size: 60%;
-    background-position: left center;
-    background-position-/*GALLERY*/
+    background-position: left center;/*GALLERY*/
   }
   /* line 584, C:/Users/admin-pc/Documents/Foldery z plikami Sass/Weekly Webdev 2 - bootr/style.sass */
   .button-subscribe-wrapper {
