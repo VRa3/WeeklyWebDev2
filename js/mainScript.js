@@ -110,14 +110,14 @@ $(window).scroll(function() {
       $("a[href='#Galeria']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 3400) && (scroll <= 5000)) {
+        if ((scroll > 3400) && (scroll <= 4600)) {
           $("a[href='#Blogi']").children("p").addClass('topBorder');
     }
      else {
       $("a[href='#Blogi']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 0) && (scroll <= 0)) {
+        if ((scroll > 4600) && (scroll <= 7000)) {
           $("a[href='#Kontakt']").children("p").addClass('topBorder');
     }
      else {
