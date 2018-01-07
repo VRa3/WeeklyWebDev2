@@ -110,14 +110,14 @@ $(window).scroll(function() {
       $("a[href='#Galeria']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 3400) && (scroll <= 5000)) {
+        if ((scroll > 3400) && (scroll <= 4200)) {
           $("a[href='#Blogi']").children("p").addClass('topBorder');
     }
      else {
       $("a[href='#Blogi']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 0) && (scroll <= 0)) {
+        if ((scroll > 4200) && (scroll <= 7000)) {
           $("a[href='#Kontakt']").children("p").addClass('topBorder');
     }
      else {
@@ -125,4 +125,51 @@ $(window).scroll(function() {
     }
 
 }); 
+
+
+// Section tracker
+
+ $("#myForm").validate({
+   rules: {
+     name: {
+       required:true,
+       rangelength: [4,10]
+     },
+       mail: {
+         required:true,
+         email:true,
+         rangelength: [9,30]
+       },
+           phone: {
+             rangelength: [9, 15],
+             number:true
+         },
+              textarea: {
+                required:true,
+                rangelength: [15,300]
+              }
+    }, // End of rules object
+  
+    messages : {
+      name: {
+      required:"Give us your name, or nickname so we can know each other :)",
+      rangelength:"It should be 4-10 characters long"
+      },
+          mail: {
+            required:"Without your mail, we can't stay in touch...",
+            email:"Use correct email format i.e. name@mail.com",
+            rangelength:"Your email adress should be atleast 9 characters long"
+          },
+              phone: {
+                rangelength:"Use your 9 digit phone number only",
+                number:"Use only digits, without special marks"
+              },
+                textarea: {
+                  required:"Dont You forget about message to us :(?",
+                  rangelength:"Dont be so shy :P Write something more!"
+                }
+   
+                       }
+ 
+ }); // End of validate
 
