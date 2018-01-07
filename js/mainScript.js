@@ -173,3 +173,28 @@ $(window).scroll(function() {
  
  }); // End of validate
 
+$("#subscribeForm").validate({
+  rules: {
+    subscribeMail: {
+         email:true,
+         rangelength: [9,30],
+         required: true,
+    }
+    
+    
+    
+    
+  },
+      messages: {
+        subscribeMail: {
+            required:"If you want to subscribe, please write your email adress",
+            email:"Use correct email format i.e. name@mail.com",
+            rangelength:"Your email adress should be atleast 9 characters long"
+        }
+      }
+  
+  
+  
+  
+  
+});

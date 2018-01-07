@@ -10,16 +10,26 @@
 
     <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+    <link rel=stylesheet href="featherlight-1.7.9/src/featherlight.css">
+    
+    
+    
+    
     <!-- Google font-->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> 
     <!-- Google font-->
     
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    
+    <!-- Featherlight -->
+    <script type="text/javascript" src="featherlight-1.7.9/src/featherlight.js"></script>
+    <!-- Featherlight -->
+
+    <!-- Jquery Validate -->
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
     <script href="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
-    
+    <!-- Jquery Validate -->
 </head>
 
 <body>
@@ -164,16 +174,16 @@
           <div class="row Peaches">
 
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                  <div class="img-wrapper"><img src="images/gallery1.jpg" class="img-responsive" alt="Peach in slices on white plate"></div>
+                  <div class="img-wrapper"><img src="images/gallery1.jpg" class="img-responsive" data-featherlight="images/gallery1.jpg" alt="Peach in slices on white plate"></div>
                 </div>
 
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                  <div class="img-wrapper"><img src="images/gallery2.jpg" class="img-responsive borowka" alt="Blueberries in wood bowl"></div>
+                  <div class="img-wrapper"><img src="images/gallery2.jpg" class="img-responsive borowka" data-featherlight="images/gallery2.jpg" alt="Blueberries in wood bowl"></div>
                 </div>
 
                 <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                  <div class="img-wrapper">
-                    <img src="images/gallery3.jpg" class="img-responsive jezyna" alt="Blackcurrant on table">
+                    <img src="images/gallery3.jpg" class="img-responsive jezyna" data-featherlight="images/gallery3.jpg" alt="Blackcurrant on table">
                   </div>
                 </div>
 
@@ -185,7 +195,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
                    <div class="img-wrapper">
-                      <img src="images/gallery4.jpg" class="img-responsive" alt="Blueberries falling into cup of milk">
+                      <img src="images/gallery4.jpg" class="img-responsive" data-featherlight="images/gallery4.jpg"  alt="Blueberries falling into cup of milk">
                    </div>
 
                 </div>
@@ -193,7 +203,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 
                   <div class="img-wrapper">
-                    <img src="images/gallery5.jpg" class="img-responsive" alt="Khaki fruit">
+                    <img src="images/gallery5.jpg" class="img-responsive" data-featherlight="images/gallery5.jpg" alt="Khaki fruit">
                   </div>
 
                 </div>
@@ -246,12 +256,13 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, ea, nam iure illo dignissimos expedita aperiam? Assumenda necessitatibus, atque nemo.</p>
        </div>
        
+       <form id="subscribeForm">
        <div class="row">
        
             <div class="col-sm-8 col-md-8 col-lg-offset-0 col-lg-8">
 
-                  <input type="text" class="input-subscribe"
-                   placeholder="You email adress...">
+                  <input type="text" name="subscribeMail" class="input-subscribe"
+                   placeholder="Your email adress...">
 
             </div>
         
@@ -259,12 +270,12 @@
             <div class="col-sm-4 col-md-3 col-lg-offset-0 col-lg-3">
 
               
-                <button class="button-subscribe">SUBSCRIBE</button>
+                <button class="button-subscribe" type="submit" name="submit" id="submit-subscribeForm" >SUBSCRIBE</button>
                 
             </div>
         
         </div>
-        
+        </form>
         
         
 </div> 
@@ -305,7 +316,7 @@
         <div class="Blog-wrap col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
               <div class="foto-wrap">
-                    <img src="images/blog1.jpg" class="img-responsive" alt="Glass of green smoothie made of apple, kiwi and lemon">
+                    <img src="images/blog1.jpg" class="img-responsive" data-featherlight="images/blog1.jpg" alt="Glass of green smoothie made of apple, kiwi and lemon">
 
                         <div class="Blog-date">
                           <p> 20 NOV</p>
@@ -324,7 +335,7 @@
 
         <div class="Blog-wrap col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="foto-wrap">
-                      <img src="images/blog2.jpg" class="img-responsive" alt="Bowl of green soup">
+                      <img src="images/blog2.jpg" data-featherlight="images/blog2.jpg" class="img-responsive" alt="Bowl of green soup">
 
                         <div class="Blog-date">
                           <p> 20 NOV </p>
@@ -343,7 +354,7 @@
       
         <div class="Blog-wrap col-xs-12 col-sm-12 col-md-4 col-lg-4">
                       <div class="foto-wrap">
-                            <img src="images/blog3.jpg" class="img-responsive" alt="Raspberries in blue boxes">
+                            <img src="images/blog3.jpg" data-featherlight="images/blog3.jpg" class="img-responsive" alt="Raspberries in blue boxes">
 
                               <div class="Blog-date">
                                 <p> 20 NOV</p>
