@@ -257,6 +257,7 @@ body {
 .Gallery img {
   width: 100%;
   transition: all 0.8s;
+  cursor: pointer;
 }
 
 .Gallery img:hover {
@@ -340,6 +341,10 @@ body {
   text-align: center;
   color: #fff;
   font-size: 4rem;
+}
+
+.foto-wrap img{
+  cursor: pointer;
 }
 
 .Blog-description-wrap {
