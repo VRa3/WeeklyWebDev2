@@ -76,10 +76,15 @@ $(".Blog-button-view").click(function(){
 
 // Service dropdowns on panel
 
+var limiter = 768;
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     
-
+  if ( $(window).width() > limiter ) { 
+      
+    
+    
     if (scroll <= 275) {
           $("a[href='#Dogory']").children("p").addClass('topBorder');
     }
@@ -96,14 +101,14 @@ $(window).scroll(function() {
       $("a[href='#Oczym']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 950) && (scroll <= 1850)) {
+        if ((scroll > 950) && (scroll <= 1550)) {
           $("a[href='#Serwisy']").children("p").addClass('topBorder');
     }
      else {
       $("a[href='#Serwisy']").children("p").removeClass('topBorder');
     }
   
-        if ((scroll > 1850) && (scroll <= 3400)) {
+        if ((scroll > 1550) && (scroll <= 3400)) {
           $("a[href='#Galeria']").children("p").addClass('topBorder');
     }
      else {
@@ -123,11 +128,79 @@ $(window).scroll(function() {
      else {
       $("a[href='#Kontakt']").children("p").removeClass('topBorder');
     }
+  } 
+});  // tracker for desktops, orange border
 
-}); 
+
+var limiter = 768;
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    
+  if ( $(window).width() < limiter ) { 
+      
+    $("ul li a p").removeClass("topBorder");
+    
+    if (scroll <= 275) {
+          $("a[href='#Dogory']").children("p").addClass('orangeColor');
+    }
+  
+    else {
+      $("a[href='#Dogory']").children("p").removeClass('orangeColor');
+    }
+  
+  
+      if ((scroll > 275) && (scroll <= 950)) {
+          $("a[href='#Oczym']").children("p").addClass('orangeColor');
+    }
+     else {
+      $("a[href='#Oczym']").children("p").removeClass('orangeColor');
+    }
+  
+        if ((scroll > 950) && (scroll <= 1550)) {
+          $("a[href='#Serwisy']").children("p").addClass('orangeColor');
+    }
+     else {
+      $("a[href='#Serwisy']").children("p").removeClass('orangeColor');
+    }
+  
+        if ((scroll > 1550) && (scroll <= 3400)) {
+          $("a[href='#Galeria']").children("p").addClass('orangeColor');
+    }
+     else {
+      $("a[href='#Galeria']").children("p").removeClass('orangeColor');
+    }
+  
+        if ((scroll > 3400) && (scroll <= 4200)) {
+          $("a[href='#Blogi']").children("p").addClass('orangeColor');
+    }
+     else {
+      $("a[href='#Blogi']").children("p").removeClass('orangeColor');
+    }
+  
+        if ((scroll > 4200) && (scroll <= 7000)) {
+          $("a[href='#Kontakt']").children("p").addClass('orangeColor');
+    }
+     else {
+      $("a[href='#Kontakt']").children("p").removeClass('orangeColor');
+    }
+  }
+}); // tracker for mobiles, orange font
 
 
-// Section tracker
+$(window).resize(function() {    
+if ( $(window).width() < limiter ) { 
+ $("ul li a p").removeClass("topBorder"); 
+}
+});
+            
+$(window).resize(function() { 
+if ( $(window).width() > limiter ) { 
+ $("ul li a p").removeClass("orangeColor"); 
+}
+}); // Class remover for tracker
+
+
 
  $("#myForm").validate({
    rules: {
@@ -171,7 +244,7 @@ $(window).scroll(function() {
    
                        }
  
- }); // End of validate
+ }); // End of validate for Contact form
 
 $("#subscribeForm").validate({
   rules: {
@@ -180,11 +253,8 @@ $("#subscribeForm").validate({
          rangelength: [9,30],
          required: true,
     }
-    
-    
-    
-    
-  },
+
+},
       messages: {
         subscribeMail: {
             required:"If you want to subscribe, please write your email adress",
@@ -197,4 +267,5 @@ $("#subscribeForm").validate({
   
   
   
-});
+}); // End of validate for subscribe section
+

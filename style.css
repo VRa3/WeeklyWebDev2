@@ -22,6 +22,42 @@ body {
   padding: 15px 30px;
 }
 
+#Oczym:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+#Serwisy:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+#Galeria:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+#Blogi:before {
+    display: block;
+    content: "";
+    height: 350px;
+    margin: -350px 0 0;
+}
+
+#Kontakt:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
+
+
 .logo:hover {
   color: black;
   text-decoration: none;
@@ -54,6 +90,10 @@ body {
 .topBorder {
   border-top: 5px solid orange;
   transition: 0.1s;
+}
+
+.orangeColor {
+  color: orange;
 }
 
 .navbar-default {
@@ -642,6 +682,16 @@ footer {
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  .logo{
+    font-size: 3rem;
+    padding-left: 40px
+  }
+  
+  .logo-scrolled{
+    font-size: 2rem;
+    padding: 20px;
+  }
+  
   .burger {
     margin-top: 55px;
     transition: 0.5s;
@@ -669,6 +719,11 @@ footer {
     text-align: center;
     background-color: white;
   }
+  
+    ul li a p {
+    border-top: none;
+  }
+  
   .ding {
     font-size: 0.9rem;
     margin: 0;
@@ -736,9 +791,19 @@ footer {
   .textAbout {
     margin-top: 90%;
   }
+  
+  .textAbout h1 {
+    font-size: 2.6rem;
+  }
+  
   ul li {
     text-align: center;
   }
+  
+  ul li a p {
+    border-top: none;
+  }
+  
   .ding {
     font-size: 0.8rem;
     margin: 0;
