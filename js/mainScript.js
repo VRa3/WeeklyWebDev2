@@ -242,7 +242,7 @@ if ( $(window).width() > limiter ) {
                   rangelength:"Dont be so shy :P Write something more!"
                 }
    
-                       }
+                       } 
  
  }); // End of validate for Contact form
 
