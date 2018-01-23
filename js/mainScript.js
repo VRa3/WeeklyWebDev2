@@ -17,13 +17,14 @@ var body = document.querySelector("body");
 $(function() {
   $(document).click(function (event) {
      $('.navbar-collapse').collapse('hide');
-    if($(".navbar-header").hasClass('biale') && $(document).scrollTop() < 220){
-         $(".navbar-header").addClass('biale');}
-      else{
-         $(".navbar-header").removeClass('biale');
-      }
   });
 });
+
+
+    
+    
+    
+    
 
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 220) {
