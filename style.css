@@ -273,6 +273,7 @@ body {
   width: 100%;
   transition: all 0.8s;
   cursor: pointer;
+  backface-visibility: hidden;
 }
 
 .Gallery img:hover {
