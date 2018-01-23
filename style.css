@@ -13,7 +13,11 @@ body {
   z-index: 7;
 }
 .navbar-header{
-    transition: 0.5s;
+    transition: 1s;
+}
+.biale {
+  background-color: white;
+  transition: 0.1s;
 }
 
 .logo {
@@ -228,10 +232,6 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
-}
-
-.biale {
-  background-color: white;
 }
 
 .UslugiFoto {
