@@ -6,6 +6,13 @@ body {
   font-family: 'Raleway';
 }
 
+#Dogory{
+  z-index: 10;
+}
+.button-subscribe{
+  z-index: 7;
+}
+
 .logo {
   font-family: 'Pacifico';
   font-size: 3.5rem;
@@ -77,6 +84,7 @@ body {
 
 .Menu {
   text-transform: uppercase;
+  background-color: white;
 }
 
 .listaNavbar {
@@ -117,12 +125,12 @@ body {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.21);
   text-transform: uppercase;
   color: white;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .buttonHome:hover {
   box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.21);
-  transition: 0.5s;
+  transition: 0.3s;
   transform: scale(1.1);
 }
 

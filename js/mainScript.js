@@ -1,10 +1,29 @@
 $(document).ready(function(){
     $(".navbar-toggle").click(function(){
-         $(".navbar-header").toggleClass('biale');
-         $(".Menu").toggleClass('biale');
-    });
-}); // White background for navbar while hamburger open.
+      if($(".navbar-header").hasClass('biale')){
+         $(".navbar-header").removeClass('biale');}
+      else{
+         $(".navbar-header").addClass('biale');
+      }
+    }
+                  )});
+// White background for navbar while hamburger open.
 
+var buttonHome = document.querySelector(".buttonHome");
+var menu = document.querySelector("#bs-example-navbar-collapse-1");
+var menu2 = document.querySelector(".navbar-header")
+var body = document.querySelector("body");
+
+$(function() {
+  $(document).click(function (event) {
+     $('.navbar-collapse').collapse('hide');
+    if($(".navbar-header").hasClass('biale') && $(document).scrollTop() < 220){
+         $(".navbar-header").addClass('biale');}
+      else{
+         $(".navbar-header").removeClass('biale');
+      }
+  });
+});
 
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 220) {
@@ -36,9 +55,6 @@ $(document).ready(function(){
 			}, 1000);
 		}
 	});// Smooth anchor for menu links
-
-
-
 
 $("#show-more").click(function(){
     $(".gallery-more-container").slideToggle(600);
@@ -261,11 +277,6 @@ $("#subscribeForm").validate({
             email:"Use correct email format i.e. name@mail.com",
             rangelength:"Your email adress should be atleast 9 characters long"
         }
-      }
-  
-  
-  
-  
+      }  
   
 }); // End of validate for subscribe section
-
