@@ -12,6 +12,9 @@ body {
 .button-subscribe{
   z-index: 7;
 }
+.navbar-header{
+    transition: 0.5s;
+}
 
 .logo {
   font-family: 'Pacifico';
@@ -84,7 +87,6 @@ body {
 
 .Menu {
   text-transform: uppercase;
-  background-color: white;
 }
 
 .listaNavbar {
@@ -633,6 +635,8 @@ footer {
   .Menu ul li a {
     padding: 13px;
   }
+  
+  
   .About {
     background-size: 60%;
     background-position: left center;
@@ -687,6 +691,9 @@ footer {
     height: auto;
     background-size: contain;
     background-position: top;
+  }
+  .Menu{
+    background-color: white;
   }
   ul li {
     text-align: center;
@@ -760,6 +767,9 @@ footer {
   }
   .text-home {
     margin-top: -65px;
+  }
+  .Menu{
+    background-color: white;
   }
   .textAbout {
     margin-top: 90%;

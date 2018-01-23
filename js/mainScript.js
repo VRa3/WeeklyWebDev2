@@ -1,18 +1,9 @@
 $(document).ready(function(){
     $(".navbar-toggle").click(function(){
-      if($(".navbar-header").hasClass('biale')){
-         $(".navbar-header").removeClass('biale');}
-      else{
-         $(".navbar-header").addClass('biale');
-      }
+     $(".navbar-header").toggleClass("biale");
     }
-                  )});
+    )});
 // White background for navbar while hamburger open.
-
-var buttonHome = document.querySelector(".buttonHome");
-var menu = document.querySelector("#bs-example-navbar-collapse-1");
-var menu2 = document.querySelector(".navbar-header")
-var body = document.querySelector("body");
 
 $(function() {
   $(document).click(function (event) {
@@ -20,19 +11,13 @@ $(function() {
   });
 });
 
-
-    
-    
-    
-    
-
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 220) {
       
-    	$('.kolors').addClass('navbar-scrolled');
-        $('.logo').addClass('logo-scrolled');
-        $('.topslide').addClass('downslide');
-        $('.burger').addClass('burger-scrolled');
+    $('.kolors').addClass('navbar-scrolled');
+    $('.logo').addClass('logo-scrolled');
+    $('.topslide').addClass('downslide');
+    $('.burger').addClass('burger-scrolled');
     }
     else {
       
@@ -40,6 +25,7 @@ $(function() {
     $('.logo').removeClass('logo-scrolled');
     $('.topslide').removeClass('downslide');
     $('.burger').removeClass('burger-scrolled');
+    $('.navbar-header').removeClass("biale");
     }
   });// Flexbile navbar (changing height while scrolled)
 
