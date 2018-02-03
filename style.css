@@ -350,6 +350,7 @@ body {
   background-color: rgba(148, 97, 229, 0.79);
   min-height: 400px;
   width: 100%;
+  z-index: 6;
 }
 
 .Blogowisko h1 {
