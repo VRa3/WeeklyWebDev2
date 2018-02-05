@@ -149,7 +149,7 @@ body {
 }
 
 .About {
-  background-color: #15A5BF;
+  background-color: rgb(0, 185, 185);
   padding: 0;
   background-image: url(images/about.png);
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ body {
 }
 
 .Services {
-  background-color: rgba(38, 197, 203, 0.72);
+  background-color: #31B5E8;
 }
 
 .Services img {
