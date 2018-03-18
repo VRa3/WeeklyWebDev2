@@ -604,6 +604,12 @@ footer {
   .textAbout {
     padding-top: 40px;
   }
+  
+  .Pomidorek .Tekscik{
+    width: 100%;
+    margin-left: -30px;
+  }
+  
   .input-subscribe-wrapper {
     margin-top: -25px;
   }
@@ -623,9 +629,17 @@ footer {
     background-position: 55%;
     height: 650px;
   }
-  .textAbout {
-    padding-top: 0;
+  
+  .text-home h1{
+    font-size: 36px;
   }
+  
+  .text-home p{
+    font-size: 16px;
+  }
+  
+
+  
   .logo {
     font-size: 60px;
     padding: 10px 20px;
@@ -638,11 +652,33 @@ footer {
     padding: 13px;
   }
   
+  .textAbout{
+    margin: 0;
+    padding: 0;
+  }
   
   .About {
     background-size: 60%;
     background-position: left center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 500px;
   }
+  
+  .text-wrapper{
+    margin: 20px;
+  }
+  .text-wrapper h1{
+    font-size: 52px;
+  }
+  
+  .text-wrapper p{
+    font-size: 18px;
+  }
+  
+  
   .button-subscribe-wrapper {
     padding: 10px;
   }
@@ -660,7 +696,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .logo{
     font-size: 3rem;
     padding-left: 40px

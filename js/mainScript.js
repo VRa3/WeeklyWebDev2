@@ -69,7 +69,7 @@ var limiter = 768;
 
 $(window).scroll(function() {    
 var scroll = $(window).scrollTop();
-  if ( $(window).width() > limiter ) { 
+  if ( $(window).width() >= limiter ) { 
   
     if (scroll <= 275) {
       $("a[href='#Dogory']").children("p").addClass('topBorder');
